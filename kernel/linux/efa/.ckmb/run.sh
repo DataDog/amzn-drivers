@@ -1,7 +1,7 @@
 #!/bin/bash -e
 
 # efa needs ib_core and ib_uverbs to be loaded
-# assume it is mounted at /lib/modules (defualt path for modprobe)
+# assume it is mounted at /lib/modules (default path for modprobe)
 
 _unload_driver() {
     local efa_refs=0
